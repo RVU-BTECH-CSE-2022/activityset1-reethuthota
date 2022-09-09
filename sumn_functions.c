@@ -32,10 +32,10 @@ void output(int sum)
 
 int main()
 {
-int size=input_size("size of array:");
-int arr[size];
-arr[size]=input_ele(size,arr);
-int sum=sum_arr(size,arr);
-output(sum);
-return 0;
+ int size=input_size("size of array:");
+ int arr[size];
+ arr[size]=input_ele(size,arr);
+ int sum=sum_arr(size,arr);
+ output(sum);
+ return 0;
 }
